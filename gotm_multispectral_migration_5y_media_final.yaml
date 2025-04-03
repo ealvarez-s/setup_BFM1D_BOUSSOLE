@@ -10,7 +10,7 @@ location:
    depth: 2438.0                    # water depth [m; min=0.0; default=100.0]
 time:
    start: 2000-01-01 00:00:00                             # start date and time [yyyy-mm-dd HH:MM:SS; default=2017-01-01 00:00:00]
-   stop: 2022-09-21 00:00:00                              # stop date and time [yyyy-mm-dd HH:MM:SS; default=2018-01-01 00:00:00]
+   stop: 2022-01-01 00:00:00                              # stop date and time [yyyy-mm-dd HH:MM:SS; default=2018-01-01 00:00:00]
    dt: 600.0                        # time step for integration [s; min=0.0; default=3600.0]
 grid:
    nlev: 196                        # number of layers [min=1; default=100]
@@ -1721,7 +1721,7 @@ output:
       time_unit: day                # time unit [second, hour, day, month, year, dt=model time step; default=day]
       time_step: 1                 # number of time units between output [min=1; default=1]
       time_start: 2000-01-01 00:00:00       # start date and time [yyyy-mm-dd HH:MM:SS; default=2017-01-01 00:00:00]
-      time_stop:  2022-09-21 00:00:00       # stop date and time [yyyy-mm-dd HH:MM:SS; default=2018-01-01 00:00:00]
+      time_stop:  2022-01-01 00:00:00       # stop date and time [yyyy-mm-dd HH:MM:SS; default=2018-01-01 00:00:00]
       time_method: mean             # treatment of time dimension [point=instantaneous, mean, integrated; default=point]
       variables:
       - source: lon                 # variable name in model
@@ -2137,7 +2137,7 @@ output:
       time_unit: day
       time_step: 1
       time_start: 2000-01-01 12:00:00       # start date and time [yyyy-mm-dd HH:MM:SS; default=2017-01-01 00:00:00]
-      time_stop:  2022-09-21 00:00:00       # stop date and time [yyyy-mm-dd HH:MM:SS; default=2018-01-01 00:00:00]
+      time_stop:  2022-01-01 00:00:00       # stop date and time [yyyy-mm-dd HH:MM:SS; default=2018-01-01 00:00:00]
       variables:
       - source: h
       - source: lightspectral_Rrs400
